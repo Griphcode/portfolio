@@ -2,7 +2,6 @@ import { ReactNode } from 'react';
 import {
   Box,
   Flex,
-  Avatar,
   Link,
   Button,
   Menu,
@@ -40,10 +39,7 @@ export default function Nav() {
       <Box bg={useColorModeValue('gray.100', 'gray.900')} px={4}>
         <Flex h={16} alignItems={'center'} justifyContent={'space-between'}>
           <Box>Griphcode</Box>
-
-          <Link href='https://github.com/griphcode/portfolio' isExternal>
-		  Source<ExternalLinkIcon mx='2px' />
-		  </Link>
+          <Link >Blog</Link>
 
           <Flex alignItems={'center'}>
             <Stack direction={'row'} spacing={7}>

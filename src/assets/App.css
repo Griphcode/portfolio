@@ -17,7 +17,24 @@
   }
 }
 
-h2 {
+h2, p, {
   text-align: center;
   height: 40%;
+}
+
+.Socialbuttons, .Socialbuttons2 {
+  text-align: center;
+  margin: auto;
+}
+
+.Main {
+  height: 50px;
+}
+
+.css-faj5gh {
+  position: fixed;
+  left:0;
+  bottom:0;
+  right:0;
+
 }

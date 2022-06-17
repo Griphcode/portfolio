@@ -2,12 +2,18 @@ import React from 'react';
 import './assets/App.css';
 import Nav from './components/Nav';
 import Main from './components/Main';
+import Footer from './components/Footer';
+import { Divider, Spacer } from '@chakra-ui/react';
+
+
 
 function App() {
   return (
     <div>
-      <Nav />
+      <Nav/>
       <Main/>
+      <Spacer/>
+      <Footer/>
     </div>
   );
 }
