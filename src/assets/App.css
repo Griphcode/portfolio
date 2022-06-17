@@ -1,28 +1,15 @@
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
+* { font: sans-serif; text-align: center; }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.Main {
+  padding: 130px;
 }
 
 h2, p, {
   text-align: center;
-  height: 40%;
+  height: 20%;
 }
 
-.Socialbuttons, .Socialbuttons2 {
+.Socialbuttons, {
   text-align: center;
   margin: auto;
 }

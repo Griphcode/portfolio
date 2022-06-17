@@ -3,7 +3,7 @@ import './assets/App.css';
 import Nav from './components/Nav';
 import Main from './components/Main';
 import Footer from './components/Footer';
-import { Divider, Spacer } from '@chakra-ui/react';
+import { Spacer } from '@chakra-ui/react';
 
 
 
